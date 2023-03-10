@@ -14,6 +14,10 @@ function App() {
       <spotLight position={[0, 25, 0]} angle={1.3} shadowBias={-0.0001} />
       <Environment preset="warehouse" />
 
+      <EffectComposer>
+        <Bloom intensity={2} luminanceSmoothing={0.9} luminanceThreshold={0.2} height={1000}/>
+        <DepthOfField focusDistance={0} focalLength={0.02} bokehScale={5} height={480}/>
+      </EffectComposer>
       
       <ScrollControls pages={6} damping={0.25}>
         <Scroll>
