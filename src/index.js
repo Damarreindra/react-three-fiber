@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import logo from './logo-2.png';
+import logo from './R.png';
 import { Canvas } from '@react-three/fiber';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

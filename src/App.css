@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html,
 body,
 #root
@@ -10,7 +12,10 @@ body,
     height: 100%;
     overflow: hidden;
 }
-
+#list{
+  color: #fff;
+  list-style: none;
+}
 .App-header {
   background-color: transparent;
   display: flex;
@@ -54,6 +59,7 @@ h1,h2,h3,h4,h5 {
   margin-bottom: 32px !important;
 }
 
+
 h1 {
   font-size: 60px !important;
 }
@@ -63,7 +69,7 @@ h2 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-weight: 300;
   font-size: 18px;
