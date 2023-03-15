@@ -15,7 +15,7 @@ function App() {
       <Environment preset="warehouse" />
 
       
-      <ScrollControls pages={6} damping={0.25}>
+      <ScrollControls pages={5} damping={0.25}>
         <Scroll>
           <Float 
           speed={1}
@@ -34,14 +34,42 @@ function App() {
           floatIntensity={0.2}
           floatingRange={[1,1]}
           >
-          <Butterfly scale={0.05} position={[-1, -13, 0]} />
-          <Butterfly scale={0.05} position={[12, -14.5, -10]} />
+          <Butterfly scale={0.05} position={[-1, -23, 10]} />
+          <Butterfly scale={0.05} position={[2, -24.5, -10]} />
          
           </Float>
 
-          <Sparkles noise={0} count={500} speed={0.01} size={0.6} color={"#FFD2BE"} opacity={10} scale={[20,100,20]}></Sparkles>
+          <Sparkles noise={0} count={300} speed={0.01} size={0.6} color={"#FFD2BE"} opacity={10} scale={[20,100,20]}></Sparkles>
         <Sparkles noise={0} count={50} speed={0.01} size={10} color={"#FFF"} opacity={2} scale={[30,100,10]} ></Sparkles>
         </Scroll>
+
+        <Scroll>
+          <Float 
+          speed={1}
+          rotationIntensity={2}
+          floatIntensity={0.2}
+          floatingRange={[1,1]}
+          >
+           <Butterfly rotation-x={Math.PI * 0.05} scale={0.05} position={[0,-10.5,0]}/>
+        <Butterfly scale={0.05} position={[-10,-5,-6]}/>
+        <Butterfly scale={0.05} position={[10,-2,10]}/>   
+          </Float>
+
+          <Float 
+          speed={1}
+          rotationIntensity={2}
+          floatIntensity={0.2}
+          floatingRange={[1,1]}
+          >
+          <Butterfly scale={0.05} position={[-1, -13, 10]} />
+          <Butterfly scale={0.05} position={[2, -14.5, -10]} />
+         
+          </Float>
+
+          <Sparkles noise={0} count={300} speed={0.01} size={0.6} color={"#FFD2BE"} opacity={10} scale={[20,100,20]}></Sparkles>
+        <Sparkles noise={0} count={50} speed={0.01} size={10} color={"#FFF"} opacity={2} scale={[30,100,10]} ></Sparkles>
+        </Scroll>
+
         <Scroll html style={{ width: "100%" }}>
           <Container style={{ position: "relative" }}>
             <Row
@@ -56,7 +84,7 @@ function App() {
               <Col xs={6}>
                 <div>
                   <h1 style={{ marginBottom: "0px" }}>
-                    Life can be so fcking HARDDDD
+                  Hello My Name Damarreindra Ihya
                   </h1>
                 </div>
               </Col>
@@ -74,13 +102,16 @@ function App() {
               <Col xs={6}>
                 <div>
                   <h1 style={{ marginBottom: "0px" }}>
-                    But chill dont give up!
+                  Im Junior Web Developer
                   </h1>
                 </div>
               </Col>
             </Row>
           </Container>
         </Scroll>
+
+       
+        
       </ScrollControls>
     </>
   );
