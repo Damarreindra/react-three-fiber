@@ -16,6 +16,14 @@ body,
   color: #fff;
   list-style: none;
 }
+#project-img{
+  transition: 0.7s ease-in-out;
+  opacity: 0.6;
+}
+#project-img:hover{
+  transform: scale(1.1);
+  opacity: 1;
+}
 .App-header {
   background-color: transparent;
   display: flex;

@@ -137,6 +137,42 @@ navigation(`/${page}`)
                 </div>
               </Col>
             </Row>
+
+            <Row
+              className="text-center align-items-center justify-content-center"
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100vh",
+                padding: "0 30px",
+                top: "300vh",
+              }}
+            >
+              <Col xs={6}>
+                <div>
+                  <h1 style={{ marginBottom: "0px" }}>Projects</h1>
+                  <p>
+                  Here's several projects i've built, some using reactJS and also i built with PHP
+                  </p>
+
+                  <div onClick={()=>navigation('subscurify')} style={{cursor:'pointer'}} className="mt-5">
+                    <h3>Subscurify</h3>
+                    <img id="project-img" src="../subscurify.png" alt="" />
+                  </div>
+
+                  <div style={{cursor:'pointer'}} className="mt-5">
+                    <h3>Tweeder</h3>
+                    <img id="project-img" src="../tweeder.png" alt="" />
+                  </div>
+                  <div style={{cursor:'pointer'}} className="mt-5">
+                    <h3>New Visca</h3>
+                    <img id="project-img" src="../rental.png" alt="" />
+                  </div>
+                  
+                </div>
+              </Col>
+            </Row> 
+
           </Container>
         </Scroll>
       </ScrollControls>
