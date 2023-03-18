@@ -138,31 +138,7 @@ navigation(`/${page}`)
               </Col>
             </Row>
 
-            <Row
-              className="text-center align-items-center justify-content-center"
-              style={{
-                position: "absolute",
-                width: "100%",
-                height: "100vh",
-                padding: "0 30px",
-                top: "300vh",
-              }}
-            >
-              <Col xs={6}>
-                <div>
-                  <h1 style={{ marginBottom: "0px" }}>Projects</h1>
-                  <p>
-                    I have several projects, mostly i built it using reactJS and also i built using PHP
-                  </p>
-                  
-                   <div className="mt-5">
-                    <h3>Subscurify</h3>
-                    <img src="../subs.png" alt="" />
-                   </div>
-                  
-                </div>
-              </Col>
-            </Row>
+           
           </Container>
         </Scroll>
       </ScrollControls>
